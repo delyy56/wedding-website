@@ -2,9 +2,9 @@
 @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic";
 @import "https://fonts.googleapis.com/css?family=Nunito:400,300,700";
 p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 29px;
-  color: rgba(28, 54, 83, 0.6);
+  color: rgba(59, 0, 0, 0.6);
   padding-bottom: 20px;
 }
 h1 {
@@ -17,7 +17,7 @@ h2 {
 }
 h3 {
   color: #3d4351;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
