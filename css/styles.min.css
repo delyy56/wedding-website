@@ -622,6 +622,10 @@ header .member-actions {
   font-size: 15px;
   font-weight: 400; 
 }
+.dress-code-wrap {
+  margin-top: 40px; /* ajuste l'espace entre le texte du brunch et le bouton */
+  margin-left: 60px; /* pousse le bouton vers la droite */
+}
 #dc-modal p {
   text-align: justify;
 }
