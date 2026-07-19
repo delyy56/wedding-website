@@ -618,6 +618,13 @@ header .member-actions {
   text-transform: lowercase;
   color: rgba(28, 54, 83, 0.6);
 }
+.dress-code-btn {
+  font-size: 15px;
+  font-weight: 400; 
+}
+#dc-modal p {
+  text-align: justify;
+}
 .blog {
   padding-bottom: 120px;
 }
@@ -930,4 +937,10 @@ body.modal-open {
 }
 .modal-body {
   padding: 25px;
+}
+.color-red {
+  color: #c0392b;
+}
+.color-gold {
+  color: #b8860b;
 }
