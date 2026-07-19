@@ -338,7 +338,7 @@ section .header {
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 28px;
   visibility: hidden;
   transition: all 300ms ease-in-out;
 }
@@ -439,7 +439,7 @@ header .header-nav {
 header .member-actions {
   position: absolute;
   right: 0;
-  top: 41px;
+  top: 21px;
   transition: all 300ms ease-in-out;
 }
 .down-arrow {
