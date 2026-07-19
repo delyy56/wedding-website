@@ -608,12 +608,9 @@ header .member-actions {
 .events .rightcol {
   padding-left: 100px;
 }
-.event-location {
-  font-size: 18px;
-  color: #857b7b;
-  font-style: italic;
+.event-type {
   text-transform: none;
-  font-weight: 300; /* moins gras que le reste du h5 qui est en 500 */
+  font-weight: 500; 
 }
 .events .time {
   font-size: 17px;
