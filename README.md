@@ -11,8 +11,7 @@ _See [wedding.alicepatra.com](http://wedding.alicepatra.com/) for a demo. Use in
 4. **Add to Calendar** feature which supports four different calendars.
 5. **Book Uber** button lets guests book a cab to the venue with just a single tap.
 6. A nice **Youtube video** showing your venue.
-7. **Google Map** showing your venue's location.
-8. Start and run the website **completely free**. No hosting, backend server, or database required as you can use
+7. Start and run the website **completely free**. No hosting, backend server, or database required as you can use
    [GitHub Pages](https://pages.github.com/) to host and Google sheets (with the help of Google scripts) to store RSVP
    data.
 
