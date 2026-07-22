@@ -21,6 +21,12 @@ a:focus {
   color: #c0392b;
   text-decoration: none;
 }
+.color-red {
+  color: #c0392b;
+}
+.color-gold {
+  color: #b8860b;
+}
 h1 {
   font-size: 60px;
 }
@@ -381,7 +387,7 @@ section .header {
 }
 .fixed {
   position: fixed;
-  background-color: rgba(125, 37, 28, 0.8);
+  background-color: rgba(116, 0, 0, 0.88);
   z-index: 999;
   width: 100%;
 }
@@ -860,10 +866,4 @@ body.modal-open {
 }
 .modal-body {
   padding: 25px;
-}
-.color-red {
-  color: #c0392b;
-}
-.color-gold {
-  color: #b8860b;
 }
