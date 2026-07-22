@@ -376,11 +376,11 @@ section .header {
   position: fixed;
   width: 100%;
   z-index: 999;
-  background-color: rgba(58, 30, 20, 0.55);
+  background-color: rgba(125, 37, 28, 0.55);
 }
 .fixed {
   position: fixed;
-  background-color: rgba(58, 30, 20, 0.9);
+  background-color: rgba(125, 37, 28, 0.8);
   z-index: 999;
   width: 100%;
 }
