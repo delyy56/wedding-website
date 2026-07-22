@@ -632,11 +632,11 @@ header .member-actions {
 #dc-modal p {
   text-align: justify;
 } 
-.accommodation-item {
+.toggle-item {
   border-bottom: 1px solid #e6e9ea;
   padding: 20px 0;
 }
-.accommodation-toggle {
+.toggle-toggle {
   display: block;
   width: 100%;
   text-align: left;
@@ -646,26 +646,26 @@ header .member-actions {
   padding: 0;
   cursor: pointer;
 }
-.accommodation-toggle:hover {
+.toggle-toggle:hover {
   color: #e8ca6f;
 }
-.accommodation-toggle h5 {
+.toggle-toggle h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
 }
-.accommodation-toggle .fa-chevron-down {
+.toggle-toggle .fa-chevron-down {
   transition: transform 300ms ease-in-out;
   font-size: 14px;
 }
-.accommodation-toggle[aria-expanded="true"] .fa-chevron-down {
+.toggle-toggle[aria-expanded="true"] .fa-chevron-down {
   transform: rotate(180deg);
 }
-.accommodation-content {
+.toggle-content {
   padding-top: 15px;
 }
-.accommodation-badge {
+.toggle-badge {
   font-size: 11px;
   font-weight: 400;
   text-transform: uppercase;
@@ -676,17 +676,17 @@ header .member-actions {
   padding: 2px 10px;
   margin-left: 20px;
 }
-.accommodation-list {
+.toggle-list {
   margin-bottom: 20px;
 }
 
-.accommodation-list li {
+.toggle-list li {
   list-style: disc;
   margin-left: 20px;
   margin-bottom: 10px;
   padding-bottom: 0;
 }
-#faq .accommodation-title {
+#faq .toggle-title {
   text-transform: none;
 }
 .blog {
