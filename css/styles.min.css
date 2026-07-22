@@ -686,7 +686,9 @@ header .member-actions {
   margin-bottom: 10px;
   padding-bottom: 0;
 }
-
+#faq .accommodation-title {
+  text-transform: none;
+}
 .blog {
   padding-bottom: 120px;
 }
