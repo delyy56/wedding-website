@@ -107,14 +107,7 @@ h5 {
 .btn-margin-right {
   margin-right: 20px;
 }
-section.intro,
-section.features-extra,
-section.rsvp {
-  background: #160e8d;
-}
-section.features,
-section.events,
-section.blog {
+section.events {
   background: #faf1de; /* crème un peu plus soutenu */
 }
 .group:after {
