@@ -110,12 +110,12 @@ h5 {
 section.intro,
 section.features-extra,
 section.rsvp {
-  background: #fff;
+  background: #160e8d;
 }
 section.features,
 section.events,
 section.blog {
-  background: #f8f9fd;
+  background: #faf1de; /* crème un peu plus soutenu */
 }
 .group:after {
   content: "";
@@ -133,6 +133,7 @@ body {
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%;
+  background-color: #fff7e7;
 }
 *:focus {
   outline: none !important;
