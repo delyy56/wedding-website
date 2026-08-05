@@ -124,9 +124,9 @@ section.events {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: rgba(28, 54, 83, 0.6);
+  color: #705a5a;
   -webkit-text-size-adjust: 100%;
-  background-color: #fff7e7;
+  background-color: #fff8eb;
 }
 *:focus {
   outline: none !important;
@@ -499,7 +499,7 @@ header .member-actions {
   font-size: 17px;
   font-style: italic;
   text-transform: lowercase;
-  color: rgba(28, 54, 83, 0.6);
+  color: #5a6470;
 }
 .dress-code-btn {
   font-size: 15px;
@@ -551,7 +551,7 @@ header .member-actions {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #8a9195;
+  color: #9c8a6f;
   border: 1px solid #e0d3b8;
   border-radius: 20px;
   padding: 2px 10px;
@@ -717,7 +717,7 @@ footer .to-top-wrapper {
   width: 50px;
   height: 50px;
   border: 1px solid #e0d3b8;
-  background: #fff7e7;
+  background: #fff8eb;
 }
 footer .to-top-wrapper .to-top {
   display: block;
@@ -740,4 +740,7 @@ body.modal-open {
 }
 .modal-body {
   padding: 25px;
+}
+.modal-content {
+  background-color: #fff8eb;
 }
