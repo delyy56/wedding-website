@@ -517,7 +517,10 @@ header .member-actions {
   display: flex;
   flex-wrap: wrap;
 }
-
+.acces-mobile-wrap {
+  border-bottom: 1px solid #e0d3b8;
+  padding-bottom: 30px;
+}
 .acces-photo-col {
   display: flex;
 }
