@@ -563,6 +563,7 @@ header .member-actions {
 }
 .toggle-content {
   padding-top: 15px;
+  text-align: justify;
 }
 .toggle-badge {
   font-size: 11px;
@@ -587,6 +588,21 @@ header .member-actions {
 }
 #faq .toggle-title {
   text-transform: none;
+}
+.faq-row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faq-photo-col {
+  display: flex;
+}
+
+.faq-photo-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
 }
 #eng-pics img {
   width: 100%;
