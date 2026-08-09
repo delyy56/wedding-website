@@ -530,6 +530,46 @@ header .member-actions {
   object-fit: cover;
   border-radius: 6px;
 }
+/*photo camping*/
+.toggle-camping-photo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  max-width: 400px;
+}
+
+.toggle-camping-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 300ms ease-in-out;
+}
+
+.toggle-camping-photo .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 300ms ease-in-out;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle-camping-photo .overlay i {
+  color: #fff;
+  font-size: 24px;
+}
+.toggle-camping-photo:hover img {
+  transform: scale(1.1);
+}
+.toggle-camping-photo:hover .overlay {
+  opacity: 1;
+}
+/* FAQ*/
 .faq-photo-fight {
   object-position: right center;
 }
