@@ -531,6 +531,9 @@ header .member-actions {
   object-fit: cover;
   border-radius: 6px;
 }
+.faq-photo-fight {
+  object-position: right center;
+}
 .toggle-item {
   border-bottom: 1px solid #e0d3b8;
   padding: 20px 0;
