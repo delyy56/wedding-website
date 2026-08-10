@@ -536,16 +536,14 @@ header .member-actions {
   position: relative;
   overflow: hidden;
   border-radius: 6px;
-  max-width: 400px;
+  width: 100%;
 }
-
 .toggle-camping-photo img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 300ms ease-in-out;
 }
-
 .toggle-camping-photo .overlay {
   position: absolute;
   width: 100%;
