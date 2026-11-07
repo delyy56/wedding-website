@@ -374,18 +374,28 @@
         padding-top: 20px;
     }
 }
-/* titre du hero : la photo est cadrée sur la hauteur, on suit le ciel à gauche */
+/* titre du hero : la photo est cadrée sur la hauteur, on suit le ciel à gauche.
+   Le bord gauche du parapluie est alors à ~37.8vh + 10vw : le titre (qui part de 5vw)
+   s'arrête 16px avant. */
 @media screen and (max-width: 991px) {
     .hero .hero-title {
         left: 5vw;
         top: calc(18vh + 8px);
-        width: 50vw;
+        width: min(50vw, calc(37vh + 5vw - 16px));
     }
 }
 
+/* téléphones : photo recadrée vers la droite pour voir Grégoire, titre sur 2 lignes,
+   juste sous la barre (84px). Le parapluie est alors à ~8.4vh + 32vw et la cime des
+   arbres de la pointe à ~27.7vh : le titre (hauteur = 0.655 x largeur) reste dans le ciel. */
 @media screen and (max-width: 767px) {
+    .hero {
+        background-position: 32% 20%;
+    }
+
     .hero .hero-title {
-        width: 80vw;
+        top: calc(84px + 2vh);
+        width: min(80vw, calc(8.4vh + 27vw - 16px), calc(39vh - 140px));
     }
 }
 
