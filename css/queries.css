@@ -374,3 +374,17 @@
         padding-top: 20px;
     }
 }
+/* titre du hero : la photo est cadrée sur la hauteur, on suit le ciel à gauche */
+@media screen and (max-width: 991px) {
+    .hero .hero-title {
+        left: 5vw;
+        top: calc(18vh + 8px);
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero .hero-title {
+        width: 80vw;
+    }
+}
