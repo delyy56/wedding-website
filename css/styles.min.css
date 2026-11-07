@@ -425,6 +425,12 @@ header ul.primary-nav li a:hover {
 header ul.primary-nav li:last-child a {
   padding-right: 0px;
 }
+/* le dernier lien (Nos témoins) est masqué sur ordinateur : FAQ devient le dernier visible */
+@media screen and (min-width: 992px) {
+  header ul.primary-nav li:nth-last-child(2) a {
+    padding-right: 0px;
+  }
+}
 header ul.member-actions li {
   display: inline;
 }
