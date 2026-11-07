@@ -406,3 +406,11 @@
         padding: 8px 34px;
     }
 }
+
+/* carrousel de la galerie : le thème FlexSlider cache les flèches sous 860px, on les garde */
+@media screen and (max-width: 860px) {
+    #eng-pics .gallery-carousel .flex-direction-nav .flex-prev,
+    #eng-pics .gallery-carousel .flex-direction-nav .flex-next {
+        display: block;
+    }
+}

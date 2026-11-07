@@ -711,6 +711,50 @@ header .member-actions {
   opacity: 1;
   z-index: 9;
 }
+/* carrousel de la galerie : vignettes 4:3 (les photos paysage restent entières),
+   sans le cadre du thème FlexSlider */
+#eng-pics .gallery-carousel {
+  margin: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+#eng-pics .gallery-carousel .slides > li {
+  margin-right: 12px; /* = itemMargin du carrousel dans scripts.min.js */
+}
+#eng-pics .gallery-carousel .img-wrap {
+  aspect-ratio: 4 / 3;
+}
+#eng-pics .gallery-carousel .slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#eng-pics .gallery-carousel .flex-direction-nav a {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50%;
+  background: rgba(133, 30, 28, 0.75);
+  text-align: center;
+  line-height: 40px;
+  font-size: 0; /* cache le texte "Previous" / "Next", seule l'icône reste */
+  opacity: 0.85;
+}
+#eng-pics .gallery-carousel .flex-direction-nav a:before {
+  font-size: 28px;
+  line-height: 40px;
+}
+#eng-pics .gallery-carousel .flex-direction-nav .flex-prev {
+  left: 8px;
+}
+#eng-pics .gallery-carousel .flex-direction-nav .flex-next {
+  right: 8px;
+  text-align: center;
+}
+#eng-pics .gallery-carousel .flex-direction-nav a:hover {
+  opacity: 1;
+}
 #eng-pics .diamond {
   width: 230px;
   height: 230px;
