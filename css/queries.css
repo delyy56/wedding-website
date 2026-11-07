@@ -388,3 +388,11 @@
         width: 80vw;
     }
 }
+
+/* menu mobile : RSVP à la taille des autres liens */
+@media screen and (max-width: 991px) {
+    header ul.member-actions li a.btn-white {
+        font-size: 25px;
+        padding: 8px 34px;
+    }
+}

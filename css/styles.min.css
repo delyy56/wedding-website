@@ -452,6 +452,11 @@ header ul.member-actions li {
 header ul.member-actions li a {
   color: #fff;
 }
+/* RSVP à la même taille que les autres liens de la barre (les boutons sont en 13px) */
+header ul.member-actions li a.btn-white {
+  font-size: 16px;
+  padding: 6px 26px;
+}
 header ul.member-actions li a:hover {
   color: #e8ca6f;
 }
